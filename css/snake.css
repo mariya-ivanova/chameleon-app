@@ -1,0 +1,23 @@
+#canvas-area {
+	background: #fff;
+	border: 5px solid #3b3b3b;
+/*	margin-right: 20px; */
+
+/*	width: 700px; */ /* do not touch!!! */
+/*	height: 500px; */ /* do not touch!!! */
+}
+		
+#results {
+	position: absolute;
+	top: 100px;
+	left: 250px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+		
+#start {
+	font-size: 20px;
+	padding: 5px 15px;
+	position: absolute;
+}
