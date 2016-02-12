@@ -1,3 +1,11 @@
+ul {
+	padding-left: 0;
+}
+
+section {
+	margin-bottom: 10px;
+}
+
 body {
     font-family: "Kreon", "Droid Sans", Arial, sans-serif !important;
 	color: #929292;	
@@ -11,31 +19,32 @@ body {
   font-family: 'Droid Sans';
   font-style: normal;
   font-weight: 400; 
-  src: local('Droid Sans'), local('DroidSans'), url(http://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  src: local('Droid Sans'), url(http://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'Droid Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMYWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+  src: local('Droid Sans Bold'), url(http://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMYWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'Kreon';
   font-style: normal;
   font-weight: 300;
-  src: local('Kreon Light'), local('Kreon-Light'), url(http://fonts.gstatic.com/s/kreon/v9/76aS1J5Mmu41iLp2Z15uBfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Kreon Light'), url(http://fonts.gstatic.com/s/kreon/v9/76aS1J5Mmu41iLp2Z15uBfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
 }
+
 @font-face {
   font-family: 'Kreon';
   font-style: normal;
   font-weight: 400;
-  src: local('Kreon Regular'), local('Kreon-Regular'), url(http://fonts.gstatic.com/s/kreon/v9/gK2DcrR6Rzx5Ga9PpDfp3A.woff2) format('woff2');
+  src: local('Kreon Regular'), url(http://fonts.gstatic.com/s/kreon/v9/gK2DcrR6Rzx5Ga9PpDfp3A.woff2) format('woff2');
 }
 
 a {
-	color: #393939;
+	color: #929292;
 }
 
 a:hover, a.active, a:focus, a:active  {
@@ -47,12 +56,15 @@ a:hover, a.active, a:focus, a:active  {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #3b3b3b; /*#1d1d1d*/
+	color: #1d1d1d; 
+}
+
+#moto h1, #moto h2, #moto h3, #moto h4, #moto h5, #moto h6 {
+	color: #3b3b3b; 
 }
 
 .container {
 	background: #ffffff;
-/*	border-radius: 7px; */
 	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);	
 }
 
@@ -110,6 +122,10 @@ footer p.slogan {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */	
 }
 
+input.form-control[type="search"] {
+	font-style: italic;
+}
+
 .navbar-default {
 	text-transform: uppercase;
 	background-image: url('../images/backgr-shim.jpg');
@@ -117,10 +133,16 @@ footer p.slogan {
 	color: #393939;
 }
 
+.nav a, .navbar-nav a, .navbar-right a,
 .navbar-default .navbar-nav > li > a {
 	color: #393939;
 }
 
+.navbar-nav > .active > a,
+.navbar-nav > li > a:hover, 
+.navbar-nav > li > a.active, 
+.navbar-nav > li > a:focus, 
+.navbar-nav > li > a:active,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a.active, 
@@ -189,12 +211,8 @@ footer p.slogan {
     background-image: none;
 }
 
+.carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
-	color: gray;
-	background: #ffffff;
-}	
-
-.carousel-control .glyphicon-chevron-left {
 	color: gray;
 	background: #ffffff;
 }	
@@ -235,6 +253,14 @@ span.more-icon {
     left: 50%;
     margin-left: -20px;
     margin-top: -20px;
+}
+
+
+.item-image {
+	border: 4px solid #ffffff;
+	-webkit-box-shadow: 0px 0px 1px 1px #d4d4d4;
+	-moz-box-shadow: 0px 0px 1px 1px #d4d4d4;
+	box-shadow: 0px 0px 1px 1px #d4d4d4;
 }
 
 .intro {
@@ -356,10 +382,6 @@ span.more-icon {
 	display: block;
 }
 
-input.form-control[type="search"] {
-	font-style: italic;
-}
-
 .intro p {
 	padding: 15px 5px;
 }
@@ -376,10 +398,11 @@ input.form-control[type="search"] {
 .blog-more {
 	position: absolute;
 	right: 10px;
-	bottom: 0px;
+	bottom: 10px;
 	border: 1px solid #d4d4d4;
 	border-radius: 5px;
 	padding: 5px 10px;
+	background: #ffffff;
 }
 
 .blog-post .author {
@@ -391,12 +414,76 @@ input.form-control[type="search"] {
 .blog-post div {
 	margin-top: 15px;
 }
+/*
+.blog-post img, .comment img.avatar, .reply img.avatar {
+}
+*/
 
-.blog-post img {
+.blog-image {
+	width: 20%;
 	float: left;
-	margin-right: 15px;
+}
+
+.blog-image img {
+	max-width: 100%;
+	width: 150px;
+	height: 150px;
+	
+}
+
+.blog-content {
+	float: left;
+	width: 80%;
+	padding-left: 15px;
 }
 
 .pagination {
 	float: right;
 }
+
+.pannel {
+	position: relative;
+	border: 1px solid #d4d4d4;
+	padding: 15px;
+	background: #f0f0f0; /* Old browsers */
+	background: -moz-linear-gradient(top, #f0f0f0 0%, #f9f9f9 20%, #f9f9f9 80%, #f0f0f0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f0f0f0 0%,#f9f9f9 20%,#f9f9f9 80%,#f0f0f0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f0f0f0 0%,#f9f9f9 20%,#f9f9f9 80%,#f0f0f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */	
+}
+
+.comment, .reply {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.avatar-image {
+	width: 15%;
+	float: left;
+}
+
+.avatar-image img{
+	max-width: 100%;
+	width: 60px;
+	height: 60px;
+}
+
+.comment-content {
+	float: left;
+	width: 80%;
+	padding-left: 15px;	
+}
+
+.author-name {
+	float: left;
+	font-size: 1.5em;
+}
+
+.date {
+	float: right;
+	font-style: italic;
+}
+
+
+
+
