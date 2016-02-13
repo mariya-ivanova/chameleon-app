@@ -34,7 +34,6 @@ export default {
 	
 
 	$('#main-content #multi-media #media-slides').ready(function() {	
-//		alert('Welcome');	// do not touch!!!
 		
 			$('#multi-media #media-slides').cycle({
 					fx: 'fade',
