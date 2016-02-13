@@ -1,9 +1,10 @@
 ul {
 	padding-left: 0;
+	line-height: 24px;	
 }
 
-section {
-	margin-bottom: 10px;
+section[class^='col-'] {
+	padding-left: 30px;
 }
 
 body {
@@ -81,6 +82,10 @@ p.slogan {
 	position: absolute; 
     margin-left: 70px; 
     margin-top: 5px; 
+}
+
+footer {
+	margin-top: 15px;
 }
 
 footer .logo  img {
@@ -414,10 +419,6 @@ span.more-icon {
 .blog-post div {
 	margin-top: 15px;
 }
-/*
-.blog-post img, .comment img.avatar, .reply img.avatar {
-}
-*/
 
 .blog-image {
 	width: 20%;
@@ -477,6 +478,7 @@ span.more-icon {
 .author-name {
 	float: left;
 	font-size: 1.5em;
+	color: #1d1d1d;
 }
 
 .date {
