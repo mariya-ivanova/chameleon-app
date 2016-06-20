@@ -168,7 +168,7 @@ input.form-control[type="search"] {
     position: absolute;
     width: 45%; 
     height: 85%;	
-    top: 30px; 
+    top: 7%; 
 	left: 50%;
     right: 30px; 
 	bottom: 30px; 
@@ -486,6 +486,12 @@ span.more-icon {
 	font-style: italic;
 }
 
+@media screen and ( max-width: 800px ){
+	.carousel-caption {
+		left: 5%;
+		width: 90%;
+	}
+}
 
 
 
