@@ -1,0 +1,12 @@
+{
+  "name": "browser",
+  "_cacheHeaders": {
+    "Last-Modified": "Tue, 01 Sep 2015 15:05:05 GMT",
+    "Content-Type": "application/javascript"
+  },
+  "main": "index.js",
+  "_source": "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js",
+  "_target": "*",
+  "_originalSource": "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js",
+  "_direct": true
+}

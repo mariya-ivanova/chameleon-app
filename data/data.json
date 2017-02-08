@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "username": "mimeto",
+      "passHash": "7c4a8d09ca3762af61e59520943dc26494f8941b",
+      "usernameToLower": "mimeto",
+      "id": "16655985-e510-43d4-ad1c-2388c76d1ef7",
+      "authKey": "16655985-e510-43d4-ad1c-2388c76d1ef6FwHCPd*bP:.;Fu&:evl)RPGh"
+    },
+    {
+      "username": "Minkov",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "minkov",
+      "id": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "authKey": "16655985-e510-43d4-ad1c-2388c76d1ef6FwHCPd*bP:.;Fu&:evl)RPGg"
+    },
+    {
+      "username": "Minkov3",
+      "passHash": "1234567890123456789012345678901234567890",
+      "usernameToLower": "minkov3",
+      "id": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "authKey": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73erxSIAJyVOzIEIrpMFbanscO"
+    },
+    {
+      "username": "aniiiii",
+      "passHash": "3d4f2bf07dc1be38b20cd6e46949a1071f9d0e3d",
+      "usernameToLower": "aniiiii",
+      "id": "6f426456-1208-44ef-b35d-6f37c2002b16",
+      "authKey": "6f426456-1208-44ef-b35d-6f37c2002b16NYidXuuKtCWToBXGmyekdubA"
+    },
+    {
+      "username": "peshooo",
+      "passHash": "7c4a8d09ca3762af61e59520943dc26494f8941b",
+      "usernameToLower": "peshooo",
+      "id": "9cf4e493-df51-4996-a996-a26767955100"
+    },
+    {
+      "username": "mimitooo",
+      "passHash": "ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4",
+      "usernameToLower": "mimitooo",
+      "id": "87c6fbcd-9229-4b63-992d-7bec63cb2e46"
+    },
+    {
+      "username": "mimito",
+      "passHash": "4f66beb02a0bded6ac157cafc9625f237e1f0984",
+      "usernameToLower": "mimito",
+      "id": "e640b916-b2dc-4538-a57a-71274f8f010b",
+      "authKey": "e640b916-b2dc-4538-a57a-71274f8f010bFdnWuxvcXXsEnvebKjoFSDJx"
+    },
+    {
+      "username": "aaaaaa",
+      "passHash": "6d6eea0e029a3c3af0ad62d1471fcd0d7bd5e7b2",
+      "usernameToLower": "aaaaaa",
+      "id": "c6806db8-005f-4dd9-82c1-dbd36c55ed8d"
+    }
+  ],
+  "games": [
+    {
+      "userName": "anonimous",
+      "points": 180,
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2017-02-04T07:39:32.160Z",
+      "id": "75623582-5cd6-4459-a8f6-05a0b3856c4d"
+    },
+    {
+      "userName": "mimito",
+      "points": 400,
+      "userId": "e640b916-b2dc-4538-a57a-71274f8f010b",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2017-02-04T07:41:47.765Z",
+      "id": "c3ac54b6-4a29-49b8-9bbd-c0d2ab965684"
+    },
+    {
+      "userName": "mimito",
+      "points": 200,
+      "userId": "e640b916-b2dc-4538-a57a-71274f8f010b",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2017-02-04T07:47:57.491Z",
+      "id": "01b3acd9-08cf-4bb9-969c-0ec245577111"
+    },
+    {
+      "userName": "mimito",
+      "points": 140,
+      "userId": "e640b916-b2dc-4538-a57a-71274f8f010b",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2017-02-04T07:51:14.492Z",
+      "id": "ef4bea50-60e0-404a-b394-3cc06a2c4bdb"
+    },
+    {
+      "userName": "anonimous",
+      "points": 140,
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2017-02-07T15:31:21.117Z",
+      "id": "c88cc2d6-e39c-42aa-80df-8e05e84550bc"
+    },
+    {
+      "userName": "anonimous",
+      "points": 220,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2017-02-08T08:46:45.924Z",
+      "id": "d603428b-2f0e-484b-a9e3-e7e75a974fda"
+    },
+    {
+      "userName": "anonimous",
+      "points": 420,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2017-02-08T14:25:15.766Z",
+      "id": "b6942f3b-c7c5-4c92-a360-887a58733190"
+    }
+  ]
+}

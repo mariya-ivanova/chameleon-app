@@ -1,0 +1,21 @@
+<div id="snake">
+	<h2>Snake</h2>
+	<button id="start" onclick="docReady()">Play</button>
+	<canvas id="canvas-area" width="700" height="500">
+	</canvas>
+	<div id="results"></div>
+
+	<script src="js/snake.js"></script>
+<!--    <script src="bower_components/jquery/dist/jquery.js"></script> -->
+</div>	
+	
+<div id="scores">
+
+    {{#this}}
+       <div class="well text-left">
+           <strong>username:</strong> {{this}} <br/> 
+		   <strong>id:</strong> {{this}} <br/> 	   
+       </div>
+    {{/this}}
+	
+</div>
