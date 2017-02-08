@@ -1,0 +1,50 @@
+<!DOCTYPE html><html>
+<head>
+    <title>Chameleon</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>	
+    <link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/snake.css" >	
+</head>
+<body>
+
+<div id="wrapper" class="container">
+
+    <header id="header">
+    </header>
+
+<!--    <section id="main" class="container text-center"> -->
+    <section id="main">	
+    </section>
+	
+</div>	
+  	
+    <script src="bower_components/jquery/dist/jquery.js"></script>	
+    <script src="bower_components/jquery-cycle/jquery.cycle.all.js"></script>	
+    <script src="bower_components/browser/index.js"></script>	
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>	
+    <script src="bower_components/sha1/index.js"></script>	
+    <script src="bower_components/system.js/dist/system.js"></script>
+    <script>
+        System.config({
+            transpiler: 'babel',
+            map: {
+                jquery: 'bower_components/jquery/dist/jquery.js',
+				jqueryCycle: 'bower_components/jquery-cycle/jquery.cycle.all.js',				
+                handlebars: 'bower_components/handlebars/handlebars.js',
+                sammy: 'bower_components/sammy/lib/sammy.js',				
+			    sha1: 'bower_components/sha1/index.js',
+				
+				database: 'js/data.js',
+				templates: 'js/templates.js',
+				// controllers
+//				usersController: 'js/controllers/usersController.js',
+				snakeController: 'js/controllers/snakeController.js',				
+//				gamesController: 'js/controllers/gamesController.js',
+				homeController: 'js/controllers/homeController.js'								
+            }
+        });
+		
+        System.import('js/app.js');
+    </script>
+</body>
+</html>
