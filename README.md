@@ -2,4 +2,4 @@
 Slice And Dice Course Project
 
 ### Live Demo Here:
-http://mariya-ivanova.github.io/chameleon-app/
+http://mariya-ivanova.github.io/chameleon-app/public/index.htm
