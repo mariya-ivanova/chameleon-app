@@ -484,6 +484,15 @@ span.more-icon {
 	font-style: italic;
 }
 
-
+@media (max-width:770px) {
+	#multi-media-bar {
+		display: none;
+	}
+	
+	.carousel-caption {
+		width: 90%;
+		left: 5%;
+	}	
+}
 
 
