@@ -163,16 +163,16 @@ input.form-control[type="search"] {
     position: absolute;
     width: 45%; 
     height: 85%;	
-    top: 30px; 
-	left: 50%;
+    top: 7%; 
+    left: 50%;
     right: 30px; 
-	bottom: 30px; 
-	background: #111111;
+    bottom: 8%; 
+    background: #111111;
     opacity: 0.7; 
     filter: alpha(opacity=70);  /* For IE8 and earlier */	
     padding: 37px 33px 40px 40px;
-	text-align: left;
-	line-height: 3rem;
+    text-align: left;
+    line-height: 3rem;
 }
 
 .carousel-caption h1,
