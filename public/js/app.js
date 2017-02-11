@@ -16,13 +16,14 @@ var sammyApp = Sammy(containerId, function() {
         this.redirect('#/home');
     });
 
-	this.get('#/home', homeController.all);		
-	this.get('#/blog', blogController.all);
-	this.get('#/blogPost', blogPostController.all);	
+    this.get('#/home', homeController.all);		
+    this.get('#/blog', blogController.all);
+    this.get('#/blogPost', blogPostController.all);	
     this.get('#/register', usersController.register);
     this.get('#/login', usersController.login);
     this.get('#/logout', usersController.logout);
     this.get('#/snake', snakeController.all);	
+    this.get('#/games', gamesController.all); 	
 		
     Promise.all([data.users.current(), templates.load('main-navbar')])
         .then(function(results) {
