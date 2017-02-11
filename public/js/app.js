@@ -9,6 +9,7 @@ import snakeController from 'js/controllers/snakeController.js'
 import homeController from 'js/controllers/homeController.js'
 import blogController from 'js/controllers/blogController.js'
 import blogPostController from 'js/controllers/blogPostController.js'
+import gamesController from 'js/controllers/gamesController.js'
 
 var containerId = '#main';
 var sammyApp = Sammy(containerId, function() {
