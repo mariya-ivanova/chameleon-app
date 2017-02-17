@@ -12,7 +12,6 @@
     <header id="header">
     </header>
 
-<!--    <section id="main" class="container text-center"> -->
     <section id="main">	
     </section>
 	
@@ -21,15 +20,16 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>	
     <script src="bower_components/jquery-cycle/jquery.cycle.all.js"></script>	
     <script src="bower_components/browser/index.js"></script>	
-	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>	
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>	
     <script src="bower_components/sha1/index.js"></script>	
     <script src="bower_components/system.js/dist/system.js"></script>
     <script>
         System.config({
             transpiler: 'babel',
+	    baseURL: 'http://mariya-ivanova.github.io/chameleon-app/public',		
             map: {
                 jquery: 'bower_components/jquery/dist/jquery.js',
-				jqueryCycle: 'bower_components/jquery-cycle/jquery.cycle.all.js',				
+		jqueryCycle: 'bower_components/jquery-cycle/jquery.cycle.all.js',				
                 handlebars: 'bower_components/handlebars/handlebars.js',
                 sammy: 'bower_components/sammy/lib/sammy.js',				
 			    sha1: 'bower_components/sha1/index.js',
